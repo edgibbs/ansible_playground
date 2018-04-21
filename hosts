@@ -1,1 +1,2 @@
+[webservers]
 test_container ansible_connection=docker
