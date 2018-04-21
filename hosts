@@ -1,2 +1,4 @@
 [webservers]
-test_container ansible_connection=docker
+test1 ansible_connection=docker
+test2 ansible_connection=docker
+test3 ansible_connection=docker

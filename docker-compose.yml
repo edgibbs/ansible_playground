@@ -1,0 +1,23 @@
+version: '3.6'
+services:
+  test1:
+    container_name: 'test1'
+    build:
+      context: .
+    ports:
+      - 8081:80
+      - 8441:443
+  test2:
+    container_name: 'test2'
+    build:
+      context: .
+    ports:
+      - 8082:80
+      - 8442:443
+  test3:
+    container_name: 'test3'
+    build:
+      context: .
+    ports:
+      - 8083:80
+      - 8443:443
